@@ -1,0 +1,21 @@
+{
+  "name": "cybercalc",
+  "version": "1.0.0",
+  "description": "Кибер-калькулятор с TypeScript",
+  "main": "dist/calculator.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "calculator",
+    "typescript",
+    "cyberpunk"
+  ],
+  "author": "Эльзессер Артём Федорович",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "lab4-server",
+  "version": "1.0.0",
+  "description": "Сервер для лабораторной работы 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
