@@ -21,4 +21,4 @@
 
 > Файлы `README.md` внутри директорий `Lab_1 - Lab_6` содержат поясниткльное описание к каждой лабораторной работе.
 
-### Ссылка на GitHub Pages (используется отдельный, публичный репозиторий) - [https://xflame0xx.github.io/web_kur/](https://xflame0xx.github.io/web_kur/)
+### Ссылка на GitHub Pages  - [https://xflame0xx.github.io/web_kur/](https://xflame0xx.github.io/web_kur/)
