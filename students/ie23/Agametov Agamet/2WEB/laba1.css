@@ -1,0 +1,206 @@
+body.dark-theme {
+  background-color: #0f0f0f;
+}
+
+body.light-theme {
+  background-color: #f2f2f2;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background-color 0.3s ease;
+  font-family: 'Bradley Hand', 'Segoe Print', 'Comic Sans MS', 'Marker Felt', cursive;
+}
+
+
+.background-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.25;
+}
+
+
+.theme-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 18px;
+  background: #6a00ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.theme-btn:hover {
+  background: #4b00b3;
+}
+
+
+.calculator {
+  background: rgba(25, 25, 25, 0.95);
+  padding: 22px;
+  border-radius: 26px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+  max-width: 320px; 
+  width: 100%; 
+}
+
+
+.result {
+  width: 100%;
+  height: 60px; 
+  margin-bottom: 14px;
+  padding-right: 10px;
+  background: #222;
+  color: #00ffd5;
+  font-size: 2rem; 
+  font-weight: 300;
+  text-align: right;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+
+.my-btn {
+  height: 50px; 
+  border-radius: 8px; 
+  border: none;
+  background: #3a3a3a;
+  color: #ffffff;
+  font-size: 1.2rem; 
+  font-weight: 300;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s ease, transform 0.05s ease;
+  min-width: 0;
+  font-family: 'Bradley Hand', 'Segoe Print', 'Comic Sans MS', 'Marker Felt', cursive;
+
+}
+
+.my-btn:hover {
+  background: #6a00ff;
+}
+
+.my-btn:active {
+  transform: scale(0.97);
+}
+
+.my-btn.primary {
+  background: #6a00ff;
+}
+
+.my-btn.secondary {
+  background: #6b6b6b;
+}
+
+.my-btn.zero {
+  grid-column: span 2;
+}
+
+.my-btn.execute {
+  grid-column: span 2;
+}
+
+
+.select-box {
+  margin-top: 18px;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+select {
+  margin-top: 6px;
+  padding: 7px;
+  border-radius: 8px;
+  border: none;
+  background: #2f2f2f;
+  color: white;
+  font-family: 'Bradley Hand', 'Segoe Print', 'Comic Sans MS', 'Marker Felt', cursive;
+}
+
+
+.goal {
+  margin-top: 16px;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+mark {
+  background: #6a00ff;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+
+
+.author {
+  margin-top: 12px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.author summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+.Git {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.Git button {
+  padding: 8px 20px;
+  background: #6a00ff;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.Git button:hover {
+  background: #4b00b3;
+}
+
+
+.my-gif {
+  width: 85%;
+  height: 58px; 
+  border-radius: 8px;
+  object-fit: cover; 
+  user-select: none; 
+}
+
+
+
+.footer {
+  margin-top: 18px;
+  text-align: center;
+  color: #bdbdbd;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="laba1.css">
+</head>
+
+<body class="dark-theme">
+
+  <img
+    src="assets/PHOto.jpg"
+    alt="Фон"
+    class="background-img"
+  >
+
+  <button class="theme-btn" onclick="toggleTheme()">Сменить тему</button>
+
+  <div class="calculator">
+
+    <div id="result" class="result">0</div>
+
+    <div class="buttons">
+      <button class="my-btn secondary">C</button>
+      <button class="my-btn secondary">+/-</button>
+      <button class="my-btn secondary">%</button>
+      <button class="my-btn secondary">/</button>
+
+      <button class="my-btn">7</button>
+      <button class="my-btn">8</button>
+      <button class="my-btn">9</button>
+      <button class="my-btn primary">x</button>
+
+      <button class="my-btn">4</button>
+      <button class="my-btn">5</button>
+      <button class="my-btn">6</button>
+      <button class="my-btn primary">-</button>
+
+      <button class="my-btn">1</button>
+      <button class="my-btn">2</button>
+      <button class="my-btn">3</button>
+      <button class="my-btn primary">+</button>
+
+      <button class="my-btn zero">0</button>
+      <button class="my-btn primary">.</button>
+
+      <img
+        src="assets/sword-art-online-sao.gif"
+        alt="gif"
+        class="my-gif"
+      >
+
+      <button class="my-btn primary execute">=</button>
+    </div>
+
+    <div class="select-box">
+      <label>Режим калькулятора:</label><br>
+      <select>
+        <option>Обычный</option>
+        <option>Инженерный</option>
+        <option selected>Учебный</option>
+      </select>
+    </div>
+
+    <p class="goal">
+      Цель ЛР — <mark>знакомство</mark> с <mark>HTML</mark> и <mark>CSS</mark>.
+    </p>
+
+    <details class="author">
+      <summary>Автор</summary>
+      <p>Агаметов А. М.</p>
+      <p>Группа: ИЭ-23</p>
+    </details>
+
+    <div class="Git">
+      <a href="https://github.com/NEVAsick" target="_blank">
+        <button>GitHub</button>
+      </a>
+    </div>
+
+    <div class="footer">
+      ЛР выполнена Агаметовым А. М.
+    </div>
+
+  </div>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark-theme');
+      document.body.classList.toggle('light-theme');
+    }
+  </script>
+
+</body>
+</html>
