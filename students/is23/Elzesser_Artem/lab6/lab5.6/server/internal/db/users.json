@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "first_name": "Иван",
+        "last_name": "Иванов",
+        "photo_400_orig": "https://via.placeholder.com/400x400/007bff/ffffff?text=Ivan",
+        "city": {"id": 1, "title": "Москва"},
+        "bdate": "15.05.1990",
+        "sex": 2,
+        "domain": "ivanov",
+        "created_at": "2023-01-15T10:30:00Z"
+    },
+    {
+        "id": 2,
+        "first_name": "Мария",
+        "last_name": "Петрова",
+        "photo_400_orig": "https://via.placeholder.com/400x400/28a745/ffffff?text=Maria",
+        "city": {"id": 2, "title": "Санкт-Петербург"},
+        "bdate": "22.08.1995",
+        "sex": 1,
+        "domain": "petrova",
+        "created_at": "2023-02-20T14:45:00Z"
+    },
+    {
+        "id": 3,
+        "first_name": "Алексей",
+        "last_name": "Сидоров",
+        "photo_400_orig": "https://via.placeholder.com/400x400/ffc107/000000?text=Alex",
+        "city": {"id": 1, "title": "Москва"},
+        "bdate": "10.11.1988",
+        "sex": 2,
+        "domain": "sidorov",
+        "created_at": "2023-03-05T09:15:00Z"
+    },
+    {
+        "id": 4,
+        "first_name": "Елена",
+        "last_name": "Васильева",
+        "photo_400_orig": "https://via.placeholder.com/400x400/dc3545/ffffff?text=Elena",
+        "city": {"id": 3, "title": "Новосибирск"},
+        "bdate": "03.04.1992",
+        "sex": 1,
+        "domain": "vasileva",
+        "created_at": "2023-03-18T16:20:00Z"
+    }
+]

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberCalc</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>CyberCalc</h1>
+            <div class="theme-selector">
+                <label for="theme">Тема:</label>
+                <select id="theme">
+                    <option value="dark">Темная</option>
+                    <option value="light">Светлая</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="calculator">
+            <div class="display-result" id="display">0</div>
+            
+            <div class="buttons">
+                <!-- Первый ряд -->
+                <button data-action="sqrt">√</button>
+                <button data-action="square">x²</button>
+                <button data-action="factorial">x!</button>
+                <button class="operator" data-action="operator" data-operator="/">/</button>
+                
+                <!-- Второй ряд -->
+                <button data-action="clearEntry">CE</button>
+                <button data-action="clear">C</button>
+                <button data-action="backspace">⌫</button>
+                <button class="operator" data-action="operator" data-operator="*">×</button>
+                
+                <!-- Третий ряд -->
+                <button data-action="number" data-number="7">7</button>
+                <button data-action="number" data-number="8">8</button>
+                <button data-action="number" data-number="9">9</button>
+                <button class="operator" data-action="operator" data-operator="-">-</button>
+                
+                <!-- Четвертый ряд -->
+                <button data-action="number" data-number="4">4</button>
+                <button data-action="number" data-number="5">5</button>
+                <button data-action="number" data-number="6">6</button>
+                <button class="operator" data-action="operator" data-operator="+">+</button>
+                
+                <!-- Пятый ряд -->
+                <button data-action="number" data-number="1">1</button>
+                <button data-action="number" data-number="2">2</button>
+                <button data-action="number" data-number="3">3</button>
+                <button data-action="plusMinus">±</button>
+                
+                <!-- Шестой ряд -->
+                <button data-action="percent">%</button>
+                <button class="zero" data-action="number" data-number="0">0</button>
+                <button data-action="decimal">.</button>
+                <button data-action="tripleZero">000</button>
+                
+                <!-- Седьмой ряд -->
+                <button data-action="changeBgColor">Цвет фона</button>
+                <button data-action="changeDisplayColor">Цвет экрана</button>
+                <button class="operator" data-action="equals">=</button>
+                <button data-action="customOp">Aᴮ</button>
+            </div>
+            
+            <a href="https://github.com/WEBTERR0R" class="github-link" target="_blank">
+                GitHub
+            </a>
+        </div>
+
+        <div class="lab-info">
+            <div class="lab-purpose">
+                <p><span class="highlight">Цель лабораторной работы:</span> <span class="highlight">знакомство</span> с основами веб-разработки, изучение технологий <span class="highlight">HTML</span> и <span class="highlight">CSS</span>, создание интерактивного калькулятора с применением изученных концепций.</p>
+            </div>
+
+            <details>
+                <summary>Автор</summary>
+                <p>Эльзессер Артём Федорович</p>
+            </details>
+
+            <details>
+                <summary>Группа</summary>
+                <p>ИС-23</p>
+            </details>
+        </div>
+    </div>
+
+    <script src="dist/calculator.js"></script>
+</body>
+</html>
