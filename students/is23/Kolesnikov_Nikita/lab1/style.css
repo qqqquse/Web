@@ -1,0 +1,111 @@
+
+/* опишем базовый стиль кнопки калькулятора */
+.my-btn { 
+  margin-right: 5px;           /* задаем отступ от кнопки справа */
+  margin-top: 5px;             /* задаем отступ от кнопки сверху*/
+  width: 50px;                 /* задаем ширину кнопки */
+  height: 50px;                /* задаем высоту кнопки */      
+  border: none;                /* отключаем обводку */
+  background: #000000;         /* задаем серый цвет кнопки */
+  color: #ff9900;                /* задаем белый цвет текста внутри кнопки */
+  font-size: 1.5rem;           /* увеличим размер шрифта */
+  font-weight: 1000;
+  font-family: monospace; /* сменим шрифт */
+  cursor: pointer;             /* при наведении на кнопку курсор будет изменен
+                                  со стрелки на 'указательный палец' */
+  user-select: none;           /* отключаем возможность выделить текст внутри кнопки */
+} 
+
+/* hover - это состояние элемента, когда на него наведен курсор */
+.my-btn:hover {
+  background: #8927cf; /* при наведение курсора на кнопку, она будет окрашена в серый */
+}
+
+/* active - это состояние активации элемента. В случае кнопки - нажатие на нее */
+.my-btn:active {
+  filter: brightness(130%); /* увеличим интенсивность цвета для эффекта вспышки */
+}
+
+/* селектор для кнопок первостепенных операций */
+.my-btn.primary { 
+  background: #8927cf; /* цвет кнопки оранжевый */
+}
+
+/* селектор для кнопок второстепенных операций */
+.my-btn.secondary { 
+  background: #8927cf; /* цвет кнопки сервый */
+}
+
+/* селектор для кнопки расчета выражения (=) */
+.my-btn.execute { 
+  width: 110px;          /* сделаем кнопку шире других */
+}
+
+/* селектор для поля вывода результата */
+.result { 
+  width: 230px;
+  height: 150px;
+  margin-bottom: 15px;         /* отступ снизу */
+  padding-right: 10px;         /* выступ справа */
+  background: rgb(73, 73, 73); /* цвет можно задавать и таким образом */
+  text-align: right;           /* примагнитим текст к правой стороне */
+  color: #ff9900;              /* цвет текста белый */
+  font-size: 1.5rem;
+  font-weight: 1000;
+  font-family: monospace;
+  border-radius: 15px;   
+}
+
+.change-theme-btn{
+  margin-right: 5px;           /* задаем отступ от кнопки справа */
+  margin-top: 10px;             /* задаем отступ от кнопки сверху*/
+  width: 100px;                 /* задаем ширину кнопки */
+  height: 50px;                /* задаем высоту кнопки */      
+  background: #ffffff;         /* задаем серый цвет кнопки */
+  color: rgb(0, 0, 0);                /* задаем белый цвет текста внутри кнопки */
+  font-size: 0.9rem;   
+  text-align: center;        /* увеличим размер шрифта */
+  font-weight: 200;
+  font-family: monospace; /* сменим шрифт */
+  cursor: pointer;             /* при наведении на кнопку курсор будет изменен
+                                  со стрелки на 'указательный палец' */
+  user-select: none;  
+  border: none;         /* отключаем возможность выделить текст внутри кнопки */
+}
+.change-theme-btn:hover{
+  background: #ff0303;
+}
+
+.github-link{
+  background: #8927cf;      /* цвет фона */
+  color: white;             /* цвет текста */
+  padding: 10px 15px;        /* отступы внутри (чтобы фон был шире текста) */
+  border-radius: 8px;        /* скругление углов */
+  text-decoration: none;     /* убрать подчеркивание */
+  font-family: monospace;
+  margin-left: 33px;
+}
+.github-link:hover {
+  background: #6f1fae;       /* цвет при наведении */
+}
+
+.calculator{
+  width: 240px;
+  margin: auto;
+}
+
+.background {
+  background-color: rgb(63, 60, 60);
+}
+
+.highlight{
+  font-weight: bold;
+}
+
+body {
+  background-image: url(1.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position-x: center;
+  margin: 0;
+}
